@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#evil-button{
+    position: absolute;
+    white-space: nowrap;
+    font-size: 32px;
+}
