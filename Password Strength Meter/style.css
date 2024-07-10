@@ -1,0 +1,51 @@
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  background-color: #556e74;
+  text-align: center;
+  /* color: white; */
+}
+
+.strength-meter {
+  position: relative;
+  height: 2rem;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.strength-meter::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: calc(1% * var(--strength, 0));
+  background-color: #86D787;
+
+  transition: width 200ms;
+}
+
+.password-input{
+    width: 85%;
+    padding: .25rem .75rem;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    background-color: #cde3e7;
+    text-align: center;
+}
+
+.reasons{
+    margin-top: 25px;
+    color: white;
+    font-size: 15px5;
+}
