@@ -1,3 +1,6 @@
+The file "JavaScript-Projects-1" will contain all small and easy projects to do in JavaScript, from differents sources
+
+
 Price Range Slider:
 Small price slider to select a price from 0 to 10.000
 
